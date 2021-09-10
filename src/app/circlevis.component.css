@@ -1,0 +1,22 @@
+#background {
+  z-index: 1;
+  position: absolute;
+}
+
+#myCanvas {
+  z-index: 5;
+}
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    z-index: 0;
+    background-color: lightblue;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}

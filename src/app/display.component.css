@@ -1,0 +1,55 @@
+button {
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  padding: 0.25em 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.button-container {
+  position: absolute;
+  top: 200%;
+  z-index: 4;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+}
+.container,
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.timer,
+button {
+  margin: 0.2em;
+  border-radius: 5px;
+}
+
+.timer {
+  height: 11em;
+  width: 14em;
+  padding: 50px;
+  background-color: hotpink;
+  align-items: center;
+  position: absolute;
+  z-index: 3;
+}
+
+.timer p {
+  font-size: 100px;
+}
+
+button {
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  padding: 0.25em 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: lightgray;
+}

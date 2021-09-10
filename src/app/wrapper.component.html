@@ -1,0 +1,5 @@
+<div class="container">
+  <app-circlevis [time]="timerValue" [totalTime]="totalTimeValue"></app-circlevis>
+  <app-display (toggledNewLoopEvent)="newCounterStarted($event)" (viewUpdateEvent)="refreshTimerValue($event)">
+  </app-display>
+</div>
